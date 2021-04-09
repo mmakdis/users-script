@@ -213,7 +213,7 @@ async def get_login_code(client):
         if "Login code" not in text:
             time.sleep(1)
             await get_login_code(client)
-        matches = re.findall(r'(?<=Login code: )[^.\s]*', t)
+        matches = re.findall(r'(?<=Login code: )[^.\s]*', text)
         if matches:
             return int(matches[0].strip())
         else:
@@ -264,7 +264,7 @@ async def work(proxy, cred, sms, users, group):
         await join_group(client, 'bottestinggrou')
 
         print("Automatically getting API id/hash...")
-        w = Automate(False, proxy)
+        w = Automate(True, proxy)
         print("Entering number...")
         w.enter_number(phone)
         print("Getting code...")
@@ -273,19 +273,25 @@ async def work(proxy, cred, sms, users, group):
         w.enter_code(code)
         print("Making an application...")
         w.make_application()
-        print("Done")
         api = w.get_api()
-        client = TelegramClient("+{phone}", api_id, api_hash, proxy=proxy, connection_retries=5)
+        print(api)
+        new_client = TelegramClient(f"+{phone}", api['api_id'], api['api_hash'], proxy=proxy, connection_retries=5)
         print("Signing in...")
-        await client.connect()
-        if not await client.is_user_authorized():
-            await client.send_code_request(phone)
-            login_code = await get_login_code(client)
-            await client.sign_in(phone, login_code)
+        await new_client.connect()
+        if not await new_client.is_user_authorized():
+            await new_client.send_code_request(phone)
+            login_code = 0
+            try:
+                print("Getting login code....")
+                login_code = await get_login_code(client)
+                print(login_code)
+            except errors.rpcerrorlist.AuthKeyUnregisteredError:
+                print("Error")
+            await new_client.sign_in(phone, login_code)
         print("Signed in...")
         print("Waiting 2 seconds to start adding members...")
         time.sleep(2)
-        await start_adding(client, users, group)
+        await start_adding(new_client, users, group)
         raise Exception('restart_work_cycle')
 
 

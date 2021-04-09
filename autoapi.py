@@ -20,9 +20,9 @@ class Automate():
         try:
             self.web.type(code, id="my_password")
             self.web.click("Sign In")
-            time.sleep(3)
+            time.sleep(6)
             self.web.click("API development tools")
-            time.sleep(3)
+            time.sleep(7)
             return True
         except Exception:
             return False
@@ -34,7 +34,7 @@ class Automate():
         self.web.click(xpath="//*[@id=\"app_create_form\"]/div[4]/div/div[8]/label/input")
         self.web.type("sms app script", id="app_desc")
         self.web.click("Create application")
-        time.sleep(3)
+        time.sleep(7)
         return True
 
     def get_api(self):

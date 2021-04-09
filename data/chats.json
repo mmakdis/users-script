@@ -1,8 +1,8 @@
 [
     {
         "_": "Channel",
-        "id": 1438886413,
-        "title": "Test",
+        "id": 1392388327,
+        "title": "Bot Dev",
         "photo": {
             "_": "ChatPhotoEmpty"
         },
@@ -24,8 +24,8 @@
         "call_not_empty": false,
         "fake": false,
         "gigagroup": false,
-        "access_hash": 4124708214417161338,
-        "username": "testwowcool",
+        "access_hash": -5288383409326299732,
+        "username": "bottestinggrou",
         "restriction_reason": [],
         "admin_rights": {
             "_": "ChatAdminRights",
@@ -58,7 +58,7 @@
             "invite_users": false,
             "pin_messages": true
         },
-        "participants_count": 2
+        "participants_count": 10
     },
     {
         "_": "Channel",
@@ -131,7 +131,7 @@
             "invite_users": true,
             "pin_messages": true
         },
-        "participants_count": 90815
+        "participants_count": 90857
     },
     {
         "_": "Channel",
@@ -204,226 +204,7 @@
             "invite_users": true,
             "pin_messages": true
         },
-        "participants_count": 9161
-    },
-    {
-        "_": "Channel",
-        "id": 1187214850,
-        "title": "R Language group",
-        "photo": {
-            "_": "ChatPhoto",
-            "photo_small": {
-                "_": "FileLocationToBeDeprecated",
-                "volume_id": 804732587,
-                "local_id": 45421
-            },
-            "photo_big": {
-                "_": "FileLocationToBeDeprecated",
-                "volume_id": 804732587,
-                "local_id": 45423
-            },
-            "dc_id": 1,
-            "has_video": false
-        },
-        "date": null,
-        "version": 0,
-        "creator": false,
-        "left": false,
-        "broadcast": false,
-        "verified": false,
-        "megagroup": true,
-        "restricted": false,
-        "signatures": false,
-        "min": false,
-        "scam": false,
-        "has_link": false,
-        "has_geo": false,
-        "slowmode_enabled": false,
-        "call_active": false,
-        "call_not_empty": false,
-        "fake": false,
-        "gigagroup": false,
-        "access_hash": 2176845536607509620,
-        "username": "R_language",
-        "restriction_reason": [],
-        "admin_rights": {
-            "_": "ChatAdminRights",
-            "change_info": false,
-            "post_messages": false,
-            "edit_messages": false,
-            "delete_messages": true,
-            "ban_users": true,
-            "invite_users": true,
-            "pin_messages": true,
-            "add_admins": false,
-            "anonymous": false,
-            "manage_call": false,
-            "other": true
-        },
-        "banned_rights": null,
-        "default_banned_rights": {
-            "_": "ChatBannedRights",
-            "until_date": null,
-            "view_messages": false,
-            "send_messages": false,
-            "send_media": true,
-            "send_stickers": false,
-            "send_gifs": false,
-            "send_games": false,
-            "send_inline": false,
-            "embed_links": false,
-            "send_polls": false,
-            "change_info": true,
-            "invite_users": true,
-            "pin_messages": true
-        },
-        "participants_count": 1502
-    },
-    {
-        "_": "Channel",
-        "id": 1146340312,
-        "title": "Django",
-        "photo": {
-            "_": "ChatPhoto",
-            "photo_small": {
-                "_": "FileLocationToBeDeprecated",
-                "volume_id": 853503340,
-                "local_id": 211910
-            },
-            "photo_big": {
-                "_": "FileLocationToBeDeprecated",
-                "volume_id": 853503340,
-                "local_id": 211912
-            },
-            "dc_id": 5,
-            "has_video": false
-        },
-        "date": null,
-        "version": 0,
-        "creator": false,
-        "left": false,
-        "broadcast": false,
-        "verified": false,
-        "megagroup": true,
-        "restricted": false,
-        "signatures": false,
-        "min": false,
-        "scam": false,
-        "has_link": true,
-        "has_geo": false,
-        "slowmode_enabled": true,
-        "call_active": false,
-        "call_not_empty": false,
-        "fake": false,
-        "gigagroup": false,
-        "access_hash": -8056460233327198093,
-        "username": "django",
-        "restriction_reason": [],
-        "admin_rights": {
-            "_": "ChatAdminRights",
-            "change_info": false,
-            "post_messages": false,
-            "edit_messages": false,
-            "delete_messages": true,
-            "ban_users": true,
-            "invite_users": true,
-            "pin_messages": true,
-            "add_admins": false,
-            "anonymous": false,
-            "manage_call": false,
-            "other": true
-        },
-        "banned_rights": null,
-        "default_banned_rights": {
-            "_": "ChatBannedRights",
-            "until_date": null,
-            "view_messages": false,
-            "send_messages": false,
-            "send_media": true,
-            "send_stickers": true,
-            "send_gifs": true,
-            "send_games": true,
-            "send_inline": true,
-            "embed_links": true,
-            "send_polls": true,
-            "change_info": true,
-            "invite_users": true,
-            "pin_messages": true
-        },
-        "participants_count": 10102
-    },
-    {
-        "_": "Channel",
-        "id": 1143663208,
-        "title": "Selenium",
-        "photo": {
-            "_": "ChatPhoto",
-            "photo_small": {
-                "_": "FileLocationToBeDeprecated",
-                "volume_id": 446301781,
-                "local_id": 267430
-            },
-            "photo_big": {
-                "_": "FileLocationToBeDeprecated",
-                "volume_id": 446301781,
-                "local_id": 267432
-            },
-            "dc_id": 4,
-            "has_video": false
-        },
-        "date": null,
-        "version": 0,
-        "creator": false,
-        "left": false,
-        "broadcast": false,
-        "verified": false,
-        "megagroup": true,
-        "restricted": false,
-        "signatures": false,
-        "min": false,
-        "scam": false,
-        "has_link": false,
-        "has_geo": false,
-        "slowmode_enabled": false,
-        "call_active": false,
-        "call_not_empty": false,
-        "fake": false,
-        "gigagroup": false,
-        "access_hash": -530970092194376890,
-        "username": "SeleniumPython",
-        "restriction_reason": [],
-        "admin_rights": {
-            "_": "ChatAdminRights",
-            "change_info": false,
-            "post_messages": false,
-            "edit_messages": false,
-            "delete_messages": true,
-            "ban_users": true,
-            "invite_users": true,
-            "pin_messages": true,
-            "add_admins": false,
-            "anonymous": false,
-            "manage_call": false,
-            "other": true
-        },
-        "banned_rights": null,
-        "default_banned_rights": {
-            "_": "ChatBannedRights",
-            "until_date": null,
-            "view_messages": false,
-            "send_messages": false,
-            "send_media": true,
-            "send_stickers": true,
-            "send_gifs": true,
-            "send_games": true,
-            "send_inline": true,
-            "embed_links": true,
-            "send_polls": true,
-            "change_info": true,
-            "invite_users": true,
-            "pin_messages": true
-        },
-        "participants_count": 5884
+        "participants_count": 9166
     },
     {
         "_": "Channel",
@@ -500,14 +281,26 @@
     },
     {
         "_": "Channel",
-        "id": 1392388327,
-        "title": "Bot Dev",
+        "id": 1187214850,
+        "title": "R Language group",
         "photo": {
-            "_": "ChatPhotoEmpty"
+            "_": "ChatPhoto",
+            "photo_small": {
+                "_": "FileLocationToBeDeprecated",
+                "volume_id": 804732587,
+                "local_id": 45421
+            },
+            "photo_big": {
+                "_": "FileLocationToBeDeprecated",
+                "volume_id": 804732587,
+                "local_id": 45423
+            },
+            "dc_id": 1,
+            "has_video": false
         },
         "date": null,
         "version": 0,
-        "creator": true,
+        "creator": false,
         "left": false,
         "broadcast": false,
         "verified": false,
@@ -523,21 +316,21 @@
         "call_not_empty": false,
         "fake": false,
         "gigagroup": false,
-        "access_hash": -5288383409326299732,
-        "username": "bottestinggrou",
+        "access_hash": 2176845536607509620,
+        "username": "R_language",
         "restriction_reason": [],
         "admin_rights": {
             "_": "ChatAdminRights",
-            "change_info": true,
-            "post_messages": true,
-            "edit_messages": true,
+            "change_info": false,
+            "post_messages": false,
+            "edit_messages": false,
             "delete_messages": true,
             "ban_users": true,
             "invite_users": true,
             "pin_messages": true,
-            "add_admins": true,
+            "add_admins": false,
             "anonymous": false,
-            "manage_call": true,
+            "manage_call": false,
             "other": true
         },
         "banned_rights": null,
@@ -546,7 +339,7 @@
             "until_date": null,
             "view_messages": false,
             "send_messages": false,
-            "send_media": false,
+            "send_media": true,
             "send_stickers": false,
             "send_gifs": false,
             "send_games": false,
@@ -554,10 +347,83 @@
             "embed_links": false,
             "send_polls": false,
             "change_info": true,
-            "invite_users": false,
+            "invite_users": true,
             "pin_messages": true
         },
-        "participants_count": 3
+        "participants_count": 1501
+    },
+    {
+        "_": "Channel",
+        "id": 1143663208,
+        "title": "Selenium",
+        "photo": {
+            "_": "ChatPhoto",
+            "photo_small": {
+                "_": "FileLocationToBeDeprecated",
+                "volume_id": 446301781,
+                "local_id": 267430
+            },
+            "photo_big": {
+                "_": "FileLocationToBeDeprecated",
+                "volume_id": 446301781,
+                "local_id": 267432
+            },
+            "dc_id": 4,
+            "has_video": false
+        },
+        "date": null,
+        "version": 0,
+        "creator": false,
+        "left": false,
+        "broadcast": false,
+        "verified": false,
+        "megagroup": true,
+        "restricted": false,
+        "signatures": false,
+        "min": false,
+        "scam": false,
+        "has_link": false,
+        "has_geo": false,
+        "slowmode_enabled": false,
+        "call_active": false,
+        "call_not_empty": false,
+        "fake": false,
+        "gigagroup": false,
+        "access_hash": -530970092194376890,
+        "username": "SeleniumPython",
+        "restriction_reason": [],
+        "admin_rights": {
+            "_": "ChatAdminRights",
+            "change_info": false,
+            "post_messages": false,
+            "edit_messages": false,
+            "delete_messages": true,
+            "ban_users": true,
+            "invite_users": true,
+            "pin_messages": true,
+            "add_admins": false,
+            "anonymous": false,
+            "manage_call": false,
+            "other": true
+        },
+        "banned_rights": null,
+        "default_banned_rights": {
+            "_": "ChatBannedRights",
+            "until_date": null,
+            "view_messages": false,
+            "send_messages": false,
+            "send_media": true,
+            "send_stickers": true,
+            "send_gifs": true,
+            "send_games": true,
+            "send_inline": true,
+            "embed_links": true,
+            "send_polls": true,
+            "change_info": true,
+            "invite_users": true,
+            "pin_messages": true
+        },
+        "participants_count": 5888
     },
     {
         "_": "Channel",
@@ -618,6 +484,79 @@
             "pin_messages": true
         },
         "participants_count": 658
+    },
+    {
+        "_": "Channel",
+        "id": 1146340312,
+        "title": "Django",
+        "photo": {
+            "_": "ChatPhoto",
+            "photo_small": {
+                "_": "FileLocationToBeDeprecated",
+                "volume_id": 853503340,
+                "local_id": 211910
+            },
+            "photo_big": {
+                "_": "FileLocationToBeDeprecated",
+                "volume_id": 853503340,
+                "local_id": 211912
+            },
+            "dc_id": 5,
+            "has_video": false
+        },
+        "date": null,
+        "version": 0,
+        "creator": false,
+        "left": false,
+        "broadcast": false,
+        "verified": false,
+        "megagroup": true,
+        "restricted": false,
+        "signatures": false,
+        "min": false,
+        "scam": false,
+        "has_link": true,
+        "has_geo": false,
+        "slowmode_enabled": true,
+        "call_active": false,
+        "call_not_empty": false,
+        "fake": false,
+        "gigagroup": false,
+        "access_hash": -8056460233327198093,
+        "username": "django",
+        "restriction_reason": [],
+        "admin_rights": {
+            "_": "ChatAdminRights",
+            "change_info": false,
+            "post_messages": false,
+            "edit_messages": false,
+            "delete_messages": true,
+            "ban_users": true,
+            "invite_users": true,
+            "pin_messages": true,
+            "add_admins": false,
+            "anonymous": false,
+            "manage_call": false,
+            "other": true
+        },
+        "banned_rights": null,
+        "default_banned_rights": {
+            "_": "ChatBannedRights",
+            "until_date": null,
+            "view_messages": false,
+            "send_messages": false,
+            "send_media": true,
+            "send_stickers": true,
+            "send_gifs": true,
+            "send_games": true,
+            "send_inline": true,
+            "embed_links": true,
+            "send_polls": true,
+            "change_info": true,
+            "invite_users": true,
+            "pin_messages": true
+        },
+        "participants_count": 10105
     },
     {
         "_": "Channel",
@@ -754,6 +693,127 @@
     },
     {
         "_": "Channel",
+        "id": 1195734676,
+        "title": "python circlejerk",
+        "photo": {
+            "_": "ChatPhoto",
+            "photo_small": {
+                "_": "FileLocationToBeDeprecated",
+                "volume_id": 455104793,
+                "local_id": 307431
+            },
+            "photo_big": {
+                "_": "FileLocationToBeDeprecated",
+                "volume_id": 455104793,
+                "local_id": 307433
+            },
+            "dc_id": 4,
+            "has_video": false
+        },
+        "date": null,
+        "version": 0,
+        "creator": false,
+        "left": false,
+        "broadcast": false,
+        "verified": false,
+        "megagroup": true,
+        "restricted": false,
+        "signatures": false,
+        "min": false,
+        "scam": false,
+        "has_link": false,
+        "has_geo": false,
+        "slowmode_enabled": false,
+        "call_active": false,
+        "call_not_empty": false,
+        "fake": false,
+        "gigagroup": false,
+        "access_hash": 1058522515380546988,
+        "username": null,
+        "restriction_reason": [],
+        "admin_rights": null,
+        "banned_rights": null,
+        "default_banned_rights": {
+            "_": "ChatBannedRights",
+            "until_date": null,
+            "view_messages": false,
+            "send_messages": false,
+            "send_media": false,
+            "send_stickers": false,
+            "send_gifs": false,
+            "send_games": false,
+            "send_inline": false,
+            "embed_links": false,
+            "send_polls": false,
+            "change_info": true,
+            "invite_users": true,
+            "pin_messages": true
+        },
+        "participants_count": 13
+    },
+    {
+        "_": "Channel",
+        "id": 1438886413,
+        "title": "Test",
+        "photo": {
+            "_": "ChatPhotoEmpty"
+        },
+        "date": null,
+        "version": 0,
+        "creator": true,
+        "left": false,
+        "broadcast": false,
+        "verified": false,
+        "megagroup": true,
+        "restricted": false,
+        "signatures": false,
+        "min": false,
+        "scam": false,
+        "has_link": false,
+        "has_geo": false,
+        "slowmode_enabled": false,
+        "call_active": false,
+        "call_not_empty": false,
+        "fake": false,
+        "gigagroup": false,
+        "access_hash": 4124708214417161338,
+        "username": "testwowcool",
+        "restriction_reason": [],
+        "admin_rights": {
+            "_": "ChatAdminRights",
+            "change_info": true,
+            "post_messages": true,
+            "edit_messages": true,
+            "delete_messages": true,
+            "ban_users": true,
+            "invite_users": true,
+            "pin_messages": true,
+            "add_admins": true,
+            "anonymous": false,
+            "manage_call": true,
+            "other": true
+        },
+        "banned_rights": null,
+        "default_banned_rights": {
+            "_": "ChatBannedRights",
+            "until_date": null,
+            "view_messages": false,
+            "send_messages": false,
+            "send_media": false,
+            "send_stickers": false,
+            "send_gifs": false,
+            "send_games": false,
+            "send_inline": false,
+            "embed_links": false,
+            "send_polls": false,
+            "change_info": true,
+            "invite_users": false,
+            "pin_messages": true
+        },
+        "participants_count": 2
+    },
+    {
+        "_": "Channel",
         "id": 1238805728,
         "title": "Hy",
         "photo": {
@@ -823,67 +883,7 @@
             "invite_users": true,
             "pin_messages": true
         },
-        "participants_count": 589
-    },
-    {
-        "_": "Channel",
-        "id": 1195734676,
-        "title": "python circlejerk",
-        "photo": {
-            "_": "ChatPhoto",
-            "photo_small": {
-                "_": "FileLocationToBeDeprecated",
-                "volume_id": 455104793,
-                "local_id": 307431
-            },
-            "photo_big": {
-                "_": "FileLocationToBeDeprecated",
-                "volume_id": 455104793,
-                "local_id": 307433
-            },
-            "dc_id": 4,
-            "has_video": false
-        },
-        "date": null,
-        "version": 0,
-        "creator": false,
-        "left": false,
-        "broadcast": false,
-        "verified": false,
-        "megagroup": true,
-        "restricted": false,
-        "signatures": false,
-        "min": false,
-        "scam": false,
-        "has_link": false,
-        "has_geo": false,
-        "slowmode_enabled": false,
-        "call_active": false,
-        "call_not_empty": false,
-        "fake": false,
-        "gigagroup": false,
-        "access_hash": 1058522515380546988,
-        "username": null,
-        "restriction_reason": [],
-        "admin_rights": null,
-        "banned_rights": null,
-        "default_banned_rights": {
-            "_": "ChatBannedRights",
-            "until_date": null,
-            "view_messages": false,
-            "send_messages": false,
-            "send_media": false,
-            "send_stickers": false,
-            "send_gifs": false,
-            "send_games": false,
-            "send_inline": false,
-            "embed_links": false,
-            "send_polls": false,
-            "change_info": true,
-            "invite_users": true,
-            "pin_messages": true
-        },
-        "participants_count": 13
+        "participants_count": 590
     },
     {
         "_": "Channel",
