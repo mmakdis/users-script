@@ -57,7 +57,7 @@ def get_group():
 
 def get_proxies():
     proxies = []
-    with open('data/proxies/russian.txt', 'r') as f:
+    with open('data/proxies/indonesian.txt', 'r') as f:
         data = f.readlines()
         for proxy in data:
             if proxy.startswith("#"):
@@ -174,7 +174,7 @@ async def add_to_group(client, group_data, user_data, tries=0):
 
 
 async def start_adding(client, users, group):
-    for x in range(config.members_per_account):
+    for _ in range(config.members_per_account):
         user = next(users)
         try:
             print (f"Adding {user['name']} ({user['id']})")
